@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 100px;
+    height: 50px;
+}
+
+.logo{
+    width: 100%;
+    height: 50px;
+    background-image: url(logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+#add-1{
+    font-size: 12px;
+    color: #CCCCCC;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+#add-2{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 3px;
+    font-weight: 500;
+    position: relative;
+    right: 1.5px;
+}
+
+#add-icon{
+    position: relative;
+    right: 2px;
+}
+
+.nav-icon{
+    display: flex;
+    margin: 3px;
+    margin-top: -2px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: 650px;
+    height: 40px;
+    justify-content: space-evenly;
+    transition: border 0.3s ease-in-out;
+}
+
+.search-bar:focus-within{
+    border: 3px solid orange;
+}
+
+.select{
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 100%;
+    border: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.input{
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search{
+    width: 50px;
+    height: 100%;
+    background-color: orange;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 100;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.language{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.flag{
+    width: 20px;
+    height: 15px;
+}
+
+.language-name{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#arrow{
+    font-size: 10px;
+    background-color: transparent;
+    border: none;
+    color: rgb(144, 140, 140);
+}
+
+.text{
+    font-size: 12px;
+    color: #CCCCCC;
+}
+
+.account{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#dropdown-arrow{
+    font-size: 10px;
+    background-color: transparent;
+    border: none;
+    color: rgb(144, 140, 140);
+}
+
+.cart-icon{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.cart-text{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.menu{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(7, 7, 44);
+    display: flex;
+    align-items: center;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+}
+
+.all i{
+    position: relative;
+    left: 13px;
+    font-size: 18px;
+}
+
+.option{
+    color: #FFFFFF;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0 8px;
+}
+
+.back-img{
+    background-color: rgb(252, 214, 239);
+    width: 100%;
+    height: 300px;
+    background-image: url(img1.jpg);
+    background-size: cover;
+}
+
+.slogan{
+    position: absolute;
+    bottom: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    height: 35px;
+    background-color: white;
+    margin-left: 40px;
+}
+
+.img-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 1));
+}
+
+.products-container {
+    display: flex;
+    justify-content: space-around; /* Distribute product boxes */
+    flex-wrap: wrap; /* Wrap if screen is small */
+    gap: 20px; /* Space between boxes */
+    margin: 20px;
+}
+
+.product-box {
+    width: 23%; /* Adjust to fit 4 boxes in a row */
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.product-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.product-item {
+    width: 48%; /* Ensures 2 images per row */
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-item p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.see-more {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+    font-weight: bold;
+}
+
+.gaming{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+}
